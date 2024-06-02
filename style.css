@@ -1,0 +1,161 @@
+body {
+    background-color: #f0fff0;
+    width: 75%;
+    margin: auto;
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/** Header **/
+
+header {
+    background-color: #011627;
+    min-height: 300px;
+    width: 100%;
+    min-width: 500px;
+}
+
+h1 {
+    color: #f0fff0;
+    text-align: center;
+    padding-top: 50px;
+}
+
+nav {
+    padding: 40px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    height: 33px;
+    width: 200px;
+    padding: 13px 10px 7px 10px;
+    text-align: center;
+    background-color: #23b5d3;
+    border: #009fb7 2px solid;
+}
+
+li:hover {
+    background-color: #009fb7;
+    color: #f0fff0;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+a {
+    color: #f0fff0;
+    text-decoration: none;
+}
+
+/** main-gedeelte **/
+
+main {
+    background-color: #009fb7;
+    min-height: 500px;
+    width: 100%;
+    min-width: 300px;
+}
+
+main div {
+    padding: 0px 40px 0px 40px;
+    margin: 0px;
+    width: 45%;
+}
+
+main div p {
+    color: #f0fff0;
+    padding: 10px;
+    margin: 0;
+}
+
+main div img {
+    width: 100%;
+    max-width: 300px;
+    padding: 30px 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #011627;
+    font-weight: 700;
+    margin: auto;
+    padding: 50px;
+}
+
+/** mijncv.html **/
+table {
+    border-collapse: collapse;
+    width: 800px;
+    margin: auto;
+}
+
+th {
+    padding: 10px 5px;
+    background-color: #011627;
+    text-align: left;
+    color: #f0fff0;
+}
+
+td {
+    padding: 10px 5px;
+    background-color: #f0fff0;
+    text-align: left;
+    color: #011627;
+}
+
+/** contact-pagina **/
+form {
+    margin: auto;
+    width: 400px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select,
+button {
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #f0fff0;
+    border: 1px solid #FF3366;
+    color: #011627;
+    padding: 5px;
+}
+
+button:active {
+    background-color: #FF3366;
+    color: #f0fff0;
+    border-radius: 8px;
+    border: 1px solid #011627;
+}
+
+textarea {
+    height: 100px;
+    padding: 5px;
+}
+
+/** footer **/
+
+footer {
+    background-color: #FF3366;
+    width: 100%;
+    text-align: center;
+    color: #011627;
+}
+
+footer div {
+    padding: 50px;
+}
+
+footer a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+}
